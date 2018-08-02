@@ -190,7 +190,7 @@ code {
 .footer .topShop p strong {
   text-align: center;
   display: inline-block;
-  width: 18%;
+  width: 25%;
   height: 100%;
   font-weight: normal;
 }
@@ -208,22 +208,25 @@ code {
 .footer .bottomCont .p1 {
   width: 100%;
   display: flex;
+  margin-top: 0.4rem;
 }
 
 .footer .bottomCont .p1 button {
   width: 1.2rem;
   height: 0.66667rem;
-  margin-left: 10px;
+  margin-left: 0.26667rem;
   border: 1px solid #06c1af;
-  border-radius: 3px;
+  border-radius: 0.08rem;
   background: #fff;
+  outline: none;
+  color: #06c1af;
 }
 
 .footer .bottomCont .p1 span {
   flex: 1;
   text-align: right;
   line-height: 0.66667rem;
-  padding-right: 10px;
+  padding-right: 0.26667rem;
 }
 
 .footer .bottomCont .p1 span i {
@@ -231,15 +234,17 @@ code {
   width: 1.2rem;
   height: 0.66667rem;
   border: 1px solid #06c1af;
-  border-radius: 3px;
+  border-radius: 0.08rem;
   background: #fff;
   text-align: center;
+  color: #06c1af;
 }
 
 .footer .bottomCont ul {
   margin: 0 auto;
   width: 80%;
   display: flex;
+  margin-top: 0.4rem;
 }
 
 .footer .bottomCont ul li {
@@ -256,13 +261,34 @@ code {
 .footer .bottomCont ol {
   width: 75%;
   margin: 0 auto;
+  margin-top: 0.4rem;
 }
 
 .footer .bottomCont ol li {
   color: #06c1af;
   text-align: center;
+  margin-top: 0.13333rem;
 }
 
 .footer .bottomCont ol li b {
   margin-left: 10px;
+}
+
+.footer .p2 {
+  width: 100%;
+  display: flex;
+  margin-top: 0.4rem;
+}
+
+.footer .p2 .b1 {
+  width: 25%;
+  border-top: 1px solid #ccc;
+  margin-top: 0.26667rem;
+}
+
+.footer .p2 .b2 {
+  width: 4rem;
+  flex: 1;
+  text-align: center;
+  color: #ccc;
 }
