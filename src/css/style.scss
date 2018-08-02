@@ -2,15 +2,95 @@
 .wrap{
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
-.header{
-}
-.main{
-    flex: 1;
-    overflow-y: auto;
-}
 .footer{
+    width: 100%;
+    height: rem(240px);
+    background: #efefed;
+    .topShop {
+        width: 100%;
+        height: rem(30px);
+        font-size: rem(12px);
+        line-height: rem(30px);
+        border-top: 1px solid #ccc;
+        background:#fff;
+        color: #06c1af;
+        p {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            strong {
+                text-align: center;
+                display: inline-block;
+                width: 18%;
+                height: 100%;
+                font-weight: normal;
+            }
+            span {
+                flex: 1;
+                text-align: right;
+            }
+        }
+        
+       
+    }
+    .bottomCont {
+        width: 100%;
+        height: rem(210px);
+        .p1 {
+            width: 100%;
+            display: flex;
+            button {
+                width: rem(45px);
+                height: rem(25px);
+                margin-left: 10px;
+                border: 1px solid #06c1af;
+                border-radius: 3px;
+                background:#fff;
+            }
+            span {
+                flex: 1;
+                text-align: right;
+                line-height: rem(25px);
+                padding-right: 10px;
+                i {
+                    display: inline-block;
+                    width: rem(45px);
+                    height: rem(25px);
+                    border: 1px solid #06c1af;
+                    border-radius: 3px;
+                    background:#fff;
+                    text-align: center;
+                }
+            }
+        }
+        ul {
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            li {
+                flex: 1;
+                color: #06c1af;
+                border-right: 1px solid #ccc;
+                text-align: center;
+            }
+            .qingc {
+                border: none;
+            }
+        }
+        ol {
+            width: 75%;
+            margin: 0 auto;
+            li {
+                color: #06c1af;
+                text-align: center;
+                b {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
 }
