@@ -186,3 +186,87 @@
         }
     }
 }
+.footer{
+    width: 100%;
+    height: rem(240px);
+    background: #efefed;
+    .bottomCont {
+        width: 100%;
+        height: rem(210px);
+        .p1 {
+            width: 100%;
+            display: flex;
+            margin-top: rem(15px);
+            button {
+                width: rem(45px);
+                height: rem(25px);
+                margin-left: rem(10px);
+                border: 1px solid #06c1af;
+                border-radius: rem(3px);
+                background:#fff;
+                outline: none;
+                color: #06c1af;
+            }
+            span {
+                flex: 1;
+                text-align: right;
+                line-height: rem(25px);
+                padding-right: rem(10px);
+                i {
+                    display: inline-block;
+                    width: rem(45px);
+                    height: rem(25px);
+                    border: 1px solid #06c1af;
+                    border-radius: rem(3px);
+                    background:#fff;
+                    text-align: center;
+                    color: #06c1af;
+                }
+            }
+        }
+        ul {
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            margin-top: rem(15px);
+            li {
+                flex: 1;
+                color: #06c1af;
+                border-right: 1px solid #ccc;
+                text-align: center;
+            }
+            .qingc {
+                border: none;
+            }
+        }
+        ol {
+            width: 75%;
+            margin: 0 auto;
+            margin-top: rem(15px);
+            li {
+                color: #06c1af;
+                text-align: center;
+                margin-top: rem(5px);
+                b {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    .p2 {
+        width: 100%;
+        display: flex;
+        margin-top: rem(15px);
+        .b1 {
+            width: 25%;
+            border-top: 1px solid #ccc;
+            margin-top:rem(10px);
+        }
+        .b2 {
+            width: rem(150px);
+            flex: 1;
+            text-align: center;
+            color: #ccc;
+        }
+    }
+}
